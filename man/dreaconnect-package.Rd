@@ -6,7 +6,17 @@
 \alias{dreaconnect-package}
 \title{dreaconnect: Connection tools to department databases}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 What the package does (one paragraph).
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/dormezil/dreaconnect}
+  \item Report bugs at \url{https://github.com/dormezil/dreaconnect/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Stevens Dormezil \email{steves.dormezil@palmbeachschools.org} (\href{https://orcid.org/0000-0003-1886-6964}{ORCID})
