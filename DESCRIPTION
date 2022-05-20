@@ -15,3 +15,5 @@ Imports:
     dbplyr,
     dplyr,
     odbc
+URL: https://github.com/dormezil/dreaconnect
+BugReports: https://github.com/dormezil/dreaconnect/issues
