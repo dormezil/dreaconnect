@@ -28,4 +28,7 @@ This is a basic example which shows you how to solve a common problem:
 library(dreaconnect)
 ## Connect to edw tables
 edw <- edw_connect()
+
+## List EDw Tables
+#list_tables()
 ```
