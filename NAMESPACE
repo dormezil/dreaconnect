@@ -2,3 +2,4 @@
 
 export(edw_connect)
 export(list_tables)
+export(table_connect)

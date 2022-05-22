@@ -24,11 +24,23 @@ devtools::install_github("dormezil/dreaconnect")
 
 This is a basic example which shows you how to solve a common problem:
 
+Connect to EDW database. Be sure to assign connection to variable for
+later use
+
 ``` r
 library(dreaconnect)
 ## Connect to edw tables
 edw <- edw_connect()
+```
 
-## List EDw Tables
+List tables in database:
+
+``` r
 #list_tables()
+```
+
+Connect to table:
+
+``` r
+#location_dim_db <- table_connect(edw, "location_dim")
 ```
