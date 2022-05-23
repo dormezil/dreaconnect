@@ -4,12 +4,18 @@
 #'
 #' @param table_name String of table to connect to
 #' @param con String to previously made odbc connection
+#' @param database Database to connect to. Options include "edw" and "devl"
 #'
 #' @return A string connection to the table.
 #' @export
 #'
 #' @examples
 #' \dontrun{location_dim_db <- table_connect("location_dim")}
-table_connect <- function(con, table_name ="stu_indic_fact"){
-  dplyr::tbl(con, dbplyr::in_schema("sdm", table_name))
+table_connect <- function(con, table_name ="stu_indic_fact", database = "edw"){
+  if(database == "edw") {
+    dplyr::tbl(con, dbplyr::in_schema("sdm", table_name))
+  }
+  else if(database == "devl") {
+    dplyr::tbl(con, dbplyr::in_schema("dbo", table_name))
+  }
 }

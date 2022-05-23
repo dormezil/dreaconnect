@@ -4,12 +4,14 @@
 \alias{table_connect}
 \title{Function to connect to table}
 \usage{
-table_connect(con, table_name = "stu_indic_fact")
+table_connect(con, table_name = "stu_indic_fact", database = "edw")
 }
 \arguments{
 \item{con}{String to previously made odbc connection}
 
 \item{table_name}{String of table to connect to}
+
+\item{database}{Database to connect to. Options include "edw" and "devl"}
 }
 \value{
 A string connection to the table.
