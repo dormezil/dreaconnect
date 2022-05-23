@@ -7,7 +7,9 @@
 table_connect(con, table_name = "stu_indic_fact")
 }
 \arguments{
-\item{table_name}{}
+\item{con}{String to previously made odbc connection}
+
+\item{table_name}{String of table to connect to}
 }
 \value{
 A string connection to the table.
@@ -16,5 +18,5 @@ A string connection to the table.
 This function helps connect to tables
 }
 \examples{
-location_dim_db <- table_connect("location_dim")
+\dontrun{location_dim_db <- table_connect("location_dim")}
 }

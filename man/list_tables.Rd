@@ -7,7 +7,7 @@
 list_tables(database = "edw")
 }
 \arguments{
-\item{database}{}
+\item{database}{SQL database connection string}
 }
 \value{
 Print list of tables in edw

@@ -7,7 +7,6 @@
 #'
 #' @examples
 #' edw_connect()
-
 edw_connect <- function(){
   DBI::dbConnect(odbc::odbc(), "SDM_MSSQL", timeout = 10)
 }

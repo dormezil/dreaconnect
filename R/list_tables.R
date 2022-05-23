@@ -2,7 +2,7 @@
 #'
 #' @description This function list edw tables
 #'
-#' @param database
+#' @param database SQL database connection string
 #'
 #' @return Print list of tables in edw
 #'
