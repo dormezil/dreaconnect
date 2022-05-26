@@ -13,8 +13,11 @@
 list_tables <- function(database = "edw"){
   if(database == "edw"){
     connection <- edw_connect()
-    print(DBI::dbListTables(connection, schema = "sdm"))
+    edw_table_list <- DBI::dbListTables(connection, schema = "sdm")
+    edw_table_list <- edw_table_list %>% tibble::tibble()
+    colnames(edw_table_list) <- "edw_tables"
     DBI::dbDisconnect(connection)
+    return(edw_table_list)
   }else if(database == "devl"){
     connection <- devl_connect()
     print(DBI::dbListTables(connection, schema = "dbo"))
