@@ -10,11 +10,12 @@ list_tables(database = "edw")
 \item{database}{SQL database connection string}
 }
 \value{
-Print list of tables in edw
+Tibble of table list
 }
 \description{
 This function list edw tables
 }
 \examples{
 list_tables()
+list_tables("devl")
 }

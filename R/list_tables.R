@@ -4,12 +4,13 @@
 #'
 #' @param database SQL database connection string
 #'
-#' @return Print list of tables in edw
+#' @return Tibble of table list
 #'
 #' @export
 #'
 #' @examples
 #' list_tables()
+#' list_tables("devl")
 list_tables <- function(database = "edw"){
   if(database == "edw"){
     connection <- edw_connect()
@@ -20,7 +21,10 @@ list_tables <- function(database = "edw"){
     return(edw_table_list)
   }else if(database == "devl"){
     connection <- devl_connect()
-    print(DBI::dbListTables(connection, schema = "dbo"))
+    devl_table_list <- DBI::dbListTables(connection, schema = "dbo")
+    devl_table_list <- devl_table_list %>% tibble::tibble()
+    colnames(devl_table_list) <- "devl_tables"
     DBI::dbDisconnect(connection)
+    return(devl_table_list)
   }
 }
