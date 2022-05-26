@@ -1,6 +1,6 @@
 Package: dreaconnect
 Title: Connection tools to department databases
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person("Stevens", "Dormezil", , "steves.dormezil@palmbeachschools.org", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-1886-6964"))

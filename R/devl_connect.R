@@ -1,4 +1,4 @@
-#' @title Title
+#' @title Connection function to DEVL database
 #' @description This function connects to the devl database
 #'
 #' @return A String connection to Microsoft SQL Server

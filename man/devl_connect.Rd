@@ -2,7 +2,7 @@
 % Please edit documentation in R/devl_connect.R
 \name{devl_connect}
 \alias{devl_connect}
-\title{Title}
+\title{Connection function to DEVL database}
 \usage{
 devl_connect()
 }
