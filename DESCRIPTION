@@ -4,7 +4,7 @@ Version: 1.0.2
 Authors@R: 
     person("Stevens", "Dormezil", , "steves.dormezil@palmbeachschools.org", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-1886-6964"))
-Description: What the package does (one paragraph).
+Description: dreaconnect helps ease database connections base on drea database schema
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

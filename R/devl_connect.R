@@ -1,5 +1,5 @@
 #' @title Connection function to DEVL database
-#' @description This function connects to the devl database
+#' @description This function connects to the devl database according to DEVL schema
 #'
 #' @return A String connection to Microsoft SQL Server
 #' @export

@@ -1,6 +1,6 @@
 #' @title List EDW Tables
 #'
-#' @description This function list edw tables
+#' @description This function list edw and devl tables. Defaults to edw.
 #'
 #' @param database SQL database connection string
 #'

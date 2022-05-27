@@ -1,6 +1,6 @@
 #' @title EDW Connection Function
 #'
-#' @description This function connects to the edw database
+#' @description This function connects to the edw database according to edw schema
 #'
 #' @return A string connection to Microsoft SQL Server
 #' @export

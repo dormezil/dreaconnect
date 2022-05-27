@@ -9,8 +9,8 @@
 <!-- badges: end -->
 
 The goal of dreaconnect is to make connecting to database through R
-easier. Some basic utility functions such as listing tables in a
-database are also included.
+easier using drea database schema. Some basic utility functions such as
+listing tables in a database are also included.
 
 ## Installation
 
