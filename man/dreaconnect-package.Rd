@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-What the package does (one paragraph).
+Dreaconnect helps ease database connections base on drea database schema.
 }
 \seealso{
 Useful links:

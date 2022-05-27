@@ -10,7 +10,7 @@ devl_connect()
 A String connection to Microsoft SQL Server
 }
 \description{
-This function connects to the devl database
+This function connects to the devl database according to DEVL schema
 }
 \examples{
 devl_connect()

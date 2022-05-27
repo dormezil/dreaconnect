@@ -10,7 +10,7 @@ edw_connect()
 A string connection to Microsoft SQL Server
 }
 \description{
-This function connects to the edw database
+This function connects to the edw database according to edw schema
 }
 \examples{
 edw_connect()

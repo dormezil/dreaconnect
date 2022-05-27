@@ -13,7 +13,7 @@ list_tables(database = "edw")
 Tibble of table list
 }
 \description{
-This function list edw tables
+This function list edw and devl tables. Defaults to edw.
 }
 \examples{
 list_tables()
