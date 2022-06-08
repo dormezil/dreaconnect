@@ -66,3 +66,8 @@ Connect to table:
 #vpk_wide_db <- table_connect(devl, "vpk_wide", "devl")
 ```
 
+List EDW Table Dictionary
+```{r}
+#edw_dictionary()
+```
+

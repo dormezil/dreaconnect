@@ -3,6 +3,7 @@
 export("%>%")
 export(devl_connect)
 export(edw_connect)
+export(edw_dictionary)
 export(list_tables)
 export(table_connect)
 importFrom(magrittr,"%>%")

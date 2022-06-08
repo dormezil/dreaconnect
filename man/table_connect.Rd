@@ -19,6 +19,17 @@ A string connection to the table.
 \description{
 This function helps connect to tables
 }
+\section{Last Updated By}{
+
+Stevens Dormezil
+}
+
+\section{Last Update Date}{
+
+2022/06/08
+}
+
 \examples{
 \dontrun{location_dim_db <- table_connect("location_dim")}
+
 }

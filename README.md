@@ -57,3 +57,9 @@ Connect to table:
 #location_dim_db <- table_connect(edw, "location_dim")
 #vpk_wide_db <- table_connect(devl, "vpk_wide", "devl")
 ```
+
+List EDW Table Dictionary
+
+``` r
+#edw_dictionary()
+```

@@ -15,7 +15,18 @@ Tibble of table list
 \description{
 This function list edw and devl tables. Defaults to edw.
 }
+\section{Last Updated By}{
+
+Stevens Dormezil
+}
+
+\section{Last Update Date}{
+
+2022/06/08
+}
+
 \examples{
 list_tables()
 list_tables("devl")
+
 }

@@ -11,6 +11,11 @@
 #' @examples
 #' list_tables()
 #' list_tables("devl")
+#'
+#' @section Last Updated By:
+#' Stevens Dormezil
+#' @section Last Update Date:
+#'  2022/06/08
 list_tables <- function(database = "edw"){
   if(database == "edw"){
     connection <- edw_connect()

@@ -11,6 +11,11 @@
 #'
 #' @examples
 #' \dontrun{location_dim_db <- table_connect("location_dim")}
+#'
+#' @section Last Updated By:
+#' Stevens Dormezil
+#' @section Last Update Date:
+#'  2022/06/08
 table_connect <- function(con, table_name ="stu_indic_fact", database = "edw"){
   if(database == "edw") {
     dplyr::tbl(con, dbplyr::in_schema("sdm", table_name))
